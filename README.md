@@ -44,7 +44,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M: http
 |    color_id     |                     Identificação da cor                     |
 |  product_name   |                      Nome do produto                         |
 |   color_name    |                        Nome da cor                           |
-|      fit        |                      Estilo da calça                         |
+|      fit        |                      Modelo da calça                         |
 |  product_price  |                     Preço do produto                         |
 |   size_number   |                     Tamanho da calça                         |
 |    size_model   |                     Altura do modelo                         |
@@ -74,12 +74,10 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M: http
       - As cores light_denim_blue, black, denim_blue e dark_denim_blue aparecem na maioria dos modelos de calça.
       
       - A sugestão para a escolha dos modelos é utilizar modelos que tenham as 4 cores que escolhemos na sugestão anterior.
-        Então nesse caso vamos escolher apenas 4 modelos de jeans para iniciar o negócio.
+        Então nesse caso vamos escolher apenas 2 modelos de jeans para iniciar o negócio.
         Modelos escolhidos:
-        - relaxed_jeans
-        - skinny_jeans
-        - slim_jeans
-        - regular_jeans
+        - slim_fit
+        - skinny_fit
 
 
    - **2:** Quais as matérias-prima necessárias para confeccionar as calças?
