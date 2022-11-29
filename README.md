@@ -18,8 +18,7 @@ Porém, mesmo com o produto de entrada e a audiência definidos, os dois sócios
 ### 1.2 Questão de Negócio
    - Quantos tipos de calças e suas cores para o produto inicial?
    - Quais as matérias-prima necessárias para confeccionar as calças?
-   - Qual o melhor preço de venda para as calças?
-   - Qual o melhor preço para bater o concorrente, incluindo preço do material e mão de obra de costura.
+   - Qual o melhor preço de venda para as calças para bater o concorrente, incluindo preço do material e mão de obra de costura.
    - Calcular o lucro de cada peça, tirando o preço do material e mão de obra de costura.
    
    A principal concorrente da empresa Trend Jeans é a americana H&M.
@@ -109,9 +108,9 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
       
       - Calculo de lucro:
         - Ver quantas peças podemos ter lucro, subtraindo o preço do concorrente do total price.
-        - Vamos fabricar e vender as peças onde podemos obter o mesmo preço do concorrente com a mão de obra e lucro.
         - Desconsideraremos peças que apresentarem valores negativos.
-
+        - Vamos fabricar e vender as peças onde podemos obter o mesmo preço do concorrente com a mão de obra e lucro, dando 10% de desconto no preço      final dessa peça para batermos o preço do concorrente.
+        
 
 ## 6. Resultados Financeiros 
 
