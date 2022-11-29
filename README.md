@@ -56,6 +56,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
 |  price_spandex  |                Calculo de preço do spandex                   |
 |price_costureira |         Preço médio da hora de trabalho da costureira        |
 |  total_price    |                        Preço total                           |
+| dif_concorrente |              Diferença de preço do concorrente               |
 |      lucro      |                          Lucro                               |
 |  final_price    |                        Preço final                           |
 
@@ -119,7 +120,7 @@ Considerando todos os dados e cálculos realizados, conforme explicado nos tópi
 
 |   Lucro com as vendas em cada calça podem variar de:   |
 |--------------------------------------------------------|
-|                    $ 1,99 a $ 26,99                    |
+|                    $ 3,74 a $ 22,04                    |
 
 
 ## 9. Próximos Passos
