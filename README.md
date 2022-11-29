@@ -120,7 +120,7 @@ Considerando todos os dados e cálculos realizados conforme explicados nos tópi
 
 |   Lucro com as vendas em cada calça podem variar de:   |
 |--------------------------------------------------------|
-|                    $ 1,99 a $ 19,99                    |
+|                    $ 1,99 a $ 26,99                    |
 
 
 ## 9. Próximos Passos
