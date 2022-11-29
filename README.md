@@ -1,5 +1,5 @@
 <h1 align="center">
-  Trend Jeans - Problema de Negócio
+  Trend Jeans - Projeto de Negócio
 </h1>
 
 <h1 align="center">
