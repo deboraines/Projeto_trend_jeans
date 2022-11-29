@@ -33,7 +33,7 @@ Porém, mesmo com o produto de entrada e a audiência definidos, os dois sócios
   - Sqlite3
 
 ## 3. Dados
-Os dados para esse projeto foram coletados no site da H&M: https://www2.hm.com/en_us/men/products/jeans.html
+Os dados para esse projeto foram coletados por web scraping no site da H&M: https://www2.hm.com/en_us/men/products/jeans.html
 
 ### 3.1 Atributos de origem
 
