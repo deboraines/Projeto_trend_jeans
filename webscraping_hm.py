@@ -162,12 +162,12 @@ def data_cleaning(data_product):
 	# Fit
 	df_data['fit'] = df_data['fit'].apply(lambda x: x.replace(' ', '_').lower() if pd.notnull(x) else (x))
 
-	# size number
-	df_data['size_number'] = df_data['size'].apply(lambda x: re.search( '\d{3}cm', x).group(0) if pd.notnull(x) else x)
-	df_data['size_number'] = df_data['size_number'].apply(lambda x: re.search( '\d+', x).group(0) if pd.notnull(x) else x)
-
 	# size model
-	df_data['size_model'] = df_data['size'].str.extract('(\d+/\\d+)')
+	df_data['size_model'] = df_data['size'].apply(lambda x: re.search( '\d{3}cm', x).group(0) if pd.notnull(x) else x)
+	df_data['size_model'] = df_data['size_model'].apply(lambda x: re.search( '\d+', x).group(0) if pd.notnull(x) else x)
+
+	# size number
+	df_data['size_number'] = df_data['size'].str.extract('(\d+/\\d+)')
 
 	# Break composition by comma
 	df1 = df_data['composition'].str.split(',', expand = True).reset_index(drop=True)
