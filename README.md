@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="trendjeanslogo" title="#logo" src="./images/trend_jeans.png" />
+  <img alt="trendjeanslogo" title="#logo" src="./images/trend_jeans.png" w=512 heigth="700" width="800"/>
 </h1>
 
 ## 1. Problema de Negócio
