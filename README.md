@@ -114,7 +114,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
 
 ## 6. Resultados Financeiros 
 
-Considerando todos os dados e cálculos realizados conforme explicados nos tópicos anteriores:
+Considerando todos os dados e cálculos realizados, conforme explicado nos tópicos anteriores:
 
 
 |   Lucro com as vendas em cada calça podem variar de:   |
