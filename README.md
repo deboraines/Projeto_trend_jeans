@@ -70,7 +70,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
 
    - **1:** Quantos tipos de calças e suas cores para o produto inicial?
    
-      - A sugestão na escolha das cores para as calças, é escolher uma cor que aparece em todos os modelos de calças do database.
+      - A sugestão na escolha das cores para as calças, é escolher uma cor que aparece em todos os modelos de calças. Assim podemos economizar com o preço do tecido aproveitando eles para todos os tipos de calças.
       - As cores light_denim_blue, black, denim_blue e dark_denim_blue aparecem na maioria dos modelos de calça.
       
       - A sugestão para a escolha dos modelos é utilizar modelos que tenham as 4 cores que escolhemos na sugestão anterior.
@@ -85,7 +85,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
       - Com base nos dados de calças coletados no site da H&M, as três principais matérias-prima utilizadas são: Algodão, Polyester e Spandex.
 
 
-   - **3:** Qual o melhor preço de venda para as calças?
+   - **3:** Qual o melhor preço de venda para as calças para bater o concorrente, incluindo preço do material e mão de obra de costura.
      
       - Fazendo uma pesquisa de preços no Google em fornecedores da China, chegamos aos seguintes preços para os tecidos:
         - Cotton m2: 1.15 - 1.6 USD
@@ -94,9 +94,6 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
         
       - Pesquisando o salário médio de uma costureira nos Estados Unidos, chegamos no seguinte resultado:
         - Salário base médio 16,70 USD por hora.
-
-
-   - **4:** Qual o melhor preço para bater o concorrente, incluindo preço do material e mão de obra de costura.
       
       - Calculo preço dos materiais:
         - Pegar a porcentagem de material de cada peça e se for maior que 0.50, multiplicar pelo preço máximo por metro quadrado do material vezes dois, considerando que vamos utilizar dois metros quadrados para montar a peça.
@@ -105,7 +102,7 @@ Os dados para esse projeto foram coletados por web scraping no site da H&M e arm
       - Calculo preço mão de obra:
         - Pegar o salário base médio de 16,70 USD por hora e acrescentar em cada calça, considerando que uma costureira faz uma calça por hora.
    
-   - **5:** Calcular o lucro de cada peça, tirando o preço do material e mão de obra de costura
+   - **4:** Calcular o lucro de cada peça, tirando o preço do material e mão de obra de costura
       
       - Calculo de lucro:
         - Ver quantas peças podemos ter lucro, subtraindo o preço do concorrente do total price.
